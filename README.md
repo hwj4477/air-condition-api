@@ -4,13 +4,15 @@
 ## Installation
 
 ```sh
-gem install oga # reference : https://github.com/YorickPeterse/oga
 gem install air-condition-api
+
+# reference : https://github.com/YorickPeterse/oga (for xml parse)
+gem install oga
+
 ```
 
 ## Usage
 ```ruby
-require 'oga' # reference : https://github.com/YorickPeterse/oga
 require 'air-condition-api'
 
 API_KEY = 'YOUR_API_KEY'
