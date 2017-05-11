@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version     = '0.1.1'
   s.date        = '2017-05-11'
   s.summary     = 'Air Condition API'
-  s.description = 'Ait condition API Helper (from [https://www.data.go.kr])'
+  s.description = 'Air Condition API Helper (from [https://www.data.go.kr])'
   s.authors     = ['hwj4477']
   s.email       = 'hwj4477@gmail.com'
   s.files       = ["lib//air-condition-api.rb"]
