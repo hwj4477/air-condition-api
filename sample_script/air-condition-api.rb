@@ -9,16 +9,15 @@ require 'air-condition-api'
 
 def print_usage
 
-  puts "* usage: #{__FILE__} [APP_ID]"
+  puts "* usage: #{__FILE__} [API_KET] [AREA_NAME]"
 
 end
 
 def check_condition(api_key, area_name)
 
-
   air_condition = AirCondition.new
 
-  air_condition.request_api_area(API_KEY, "서울") do |result, error|
+  air_condition.request_api_area(api_key, area_name) do |result, error|
 
     if result 
 
