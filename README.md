@@ -1,4 +1,4 @@
-# Air Condition API Helper (from : [https://www.data.go.kr])
+# Air Condition API Helper (from : https://www.data.go.kr)
 - rubygems : http://rubygems.org/gems/air-condition-api
 
 ## Installation
@@ -12,7 +12,7 @@ gem install air-condition-api
 require 'air-condition-api'
 
 API_KEY = 'YOUR_API_KEY'
-AREA_NAME = 'YOUT_AREA_NAME'
+AREA_NAME = 'YOUR_AREA_NAME'
 
 air_condition = AirCondition.new
 
